@@ -17,33 +17,33 @@ body {
   position: relative;
   color: #fff;
 }
-#title .navbar-brand {
+#title .navbar {
+  padding: 0 0 4.5rem;
+}
+#title .navbar .navbar-brand {
   font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
+#title .navbar .nav-item {
+  padding: 0 18px;
+}
+#title .navbar .nav-item .nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
 #title h1 {
   font-family: "Montserrat-Black", sans-serif;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
-  margin: 10% auto 10%;
 }
 #title button {
-  margin-bottom: 10%;
-}
-#title #button-apple {
-  margin-right: 10px;
+  margin: 5% 3% 5% 0;
 }
 #title img {
   max-width: 250px;
   width: 100%;
-  position: absolute;
   transform: rotate(25deg);
-  top: 90px;
-}
-
-#features {
-  position: relative;
-  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
