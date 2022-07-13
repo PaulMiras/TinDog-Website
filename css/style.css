@@ -46,4 +46,23 @@ body {
   max-width: 250px;
   width: 100%;
   transform: rotate(25deg);
+}
+
+#features {
+  position: relative;
+}
+#features .col {
+  text-align: center;
+}
+#features .col span {
+  font-size: 3em;
+  color: #ef8172;
+}
+#features .col h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+}
+#features .col p {
+  color: #8f8f8f;
 }/*# sourceMappingURL=style.css.map */

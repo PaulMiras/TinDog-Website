@@ -1,8 +1,11 @@
 $font-primary: 'Montserrat', sans-serif;
 $logo-font: 'Ubuntu', sans-serif;
-$h1-font: 'Montserrat-Black', sans-serif;
+$header-font: 'Montserrat-Black', sans-serif;
 $h1-size: 3.5rem;
 $title-color: #fff;
+$icon-color: #ef8172;
+$h3-size: 1.5rem;
+$p-color: #8f8f8f;
 
 
 * {
@@ -52,7 +55,7 @@ body {
     
     // TITLE Section
     h1 {
-        font-family: $h1-font;
+        font-family: $header-font;
         font-weight: 900;
         font-size: $h1-size;
         line-height: 1.5;
@@ -68,7 +71,34 @@ body {
     img {
         max-width: 250px;
         width: 100%;
+        // position: absolute;
         transform: rotate(25deg);
     }
+
+}
+
+#features {
+    position: relative;
+
+    .col {
+        text-align: center;
+
+        span {
+            font-size: 3em;
+            color: $icon-color;
+        }
+    
+        h3 {
+            font-size: $h3-size;
+            font-family: $header-font;
+            font-weight: 900;
+        }
+
+        p {
+            color: $p-color;
+        }
+
+    }
+    
 
 }
