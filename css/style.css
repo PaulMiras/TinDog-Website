@@ -50,19 +50,49 @@ body {
 
 #features {
   position: relative;
+  padding: 7% 15%;
 }
-#features .col {
+#features .features-content {
   text-align: center;
 }
-#features .col span {
+#features .features-content span {
   font-size: 3em;
   color: #ef8172;
 }
-#features .col h3 {
+#features .features-content span:hover {
+  color: #ff4c68;
+}
+#features .features-content h3 {
   font-size: 1.5rem;
   font-family: "Montserrat-Black", sans-serif;
   font-weight: 900;
 }
-#features .col p {
+#features .features-content p {
   color: #8f8f8f;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+#testimonials h2 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+}
+#testimonials .testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#press .press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }/*# sourceMappingURL=style.css.map */

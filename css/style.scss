@@ -1,11 +1,16 @@
 $font-primary: 'Montserrat', sans-serif;
 $logo-font: 'Ubuntu', sans-serif;
 $header-font: 'Montserrat-Black', sans-serif;
+
 $h1-size: 3.5rem;
-$title-color: #fff;
-$icon-color: #ef8172;
 $h3-size: 1.5rem;
+$padding-size: 7% 15%;
+
+$color-primary: #ff4c68;
+$color-secondary: #ef8172;
+$text-color: #fff;
 $p-color: #8f8f8f;
+
 
 
 * {
@@ -26,9 +31,9 @@ body {
 //  TITLE Section
 
 #title {
-    background: #ff4c68;
+    background: $color-primary;
     position: relative;
-    color: $title-color;
+    color: $text-color;
 
     // NAVBAR Section
     .navbar {
@@ -77,22 +82,29 @@ body {
 
 }
 
+// FEATURES Section
+
 #features {
     position: relative;
+    padding: $padding-size;
 
-    .col {
+    .features-content {
         text-align: center;
 
         span {
             font-size: 3em;
-            color: $icon-color;
+            color: $color-secondary;
+        }
+
+        span:hover {
+            color: $color-primary;
         }
     
         h3 {
             font-size: $h3-size;
             font-family: $header-font;
             font-weight: 900;
-        }
+         }
 
         p {
             color: $p-color;
@@ -100,5 +112,35 @@ body {
 
     }
     
+}
 
+// TESTIMONIAL Section
+
+#testimonials {
+    padding: $padding-size;
+    text-align: center;
+    background-color: $color-secondary;
+    color: $text-color;
+
+    h2 {
+        font-family: $header-font;
+        font-weight: 900;
+    }
+
+    .testimonial-image {
+        width: 10%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+}
+
+#press {
+    background-color: $color-secondary;
+    text-align: center;
+    padding-bottom: 3%;
+
+    .press-logo {
+        width: 15%;
+        margin: 20px 20px 50px;
+    }
 }
