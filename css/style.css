@@ -9,7 +9,29 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 4%;
+}
+
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 #title {
@@ -33,24 +55,22 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
-#title h1 {
-  font-family: "Montserrat-Black", sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
 #title button {
   margin: 5% 3% 5% 0;
 }
 #title img {
   max-width: 250px;
   width: 100%;
+  position: absolute;
   transform: rotate(25deg);
+  right: 30%;
 }
 
 #features {
   position: relative;
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 #features .features-content {
   text-align: center;
@@ -62,24 +82,12 @@ body {
 #features .features-content span:hover {
   color: #ff4c68;
 }
-#features .features-content h3 {
-  font-size: 1.5rem;
-  font-family: "Montserrat-Black", sans-serif;
-  font-weight: 900;
-}
-#features .features-content p {
-  color: #8f8f8f;
-}
 
 #testimonials {
   padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
-}
-#testimonials h2 {
-  font-family: "Montserrat-Black", sans-serif;
-  font-weight: 900;
 }
 #testimonials .testimonial-image {
   width: 10%;
@@ -95,4 +103,27 @@ body {
 #press .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+#pricing h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+}
+#pricing h2 {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  #title img {
+    position: static;
+    transform: rotate(0);
+  }
 }/*# sourceMappingURL=style.css.map */
