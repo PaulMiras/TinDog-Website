@@ -90,11 +90,10 @@ h3 {
     // TITLE image 
     
     img {
-        max-width: 250px;
-        width: 100%;
+        width: 250px;
         position: absolute;
         transform: rotate(25deg);
-        right: 30%;
+        right: 20%;
     }
 
 }
@@ -169,7 +168,14 @@ h3 {
         
 }
 
-@media (max-width: 1028px) {
+//Media Queries
+
+$phone-res: 576px;
+$tablet-res: 768px;
+$laptop-res: 992px;
+$large-devices-res: 1200px;
+
+@media (max-width: $laptop-res) {
     #title {
         text-align: center;
 

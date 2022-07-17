@@ -59,11 +59,10 @@ p {
   margin: 5% 3% 5% 0;
 }
 #title img {
-  max-width: 250px;
-  width: 100%;
+  width: 250px;
   position: absolute;
   transform: rotate(25deg);
-  right: 30%;
+  right: 20%;
 }
 
 #features {
@@ -118,7 +117,7 @@ p {
   font-size: 2.5rem;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 992px) {
   #title {
     text-align: center;
   }
